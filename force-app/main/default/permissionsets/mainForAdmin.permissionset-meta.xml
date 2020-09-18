@@ -4,6 +4,26 @@
         <application>TASK</application>
         <visible>true</visible>
     </applicationVisibilities>
+    <classAccesses>
+        <apexClass>CreateData</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>CreateDataTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DeleteData</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>DeleteDataTest</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
+        <apexClass>RentACarTestFactory</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
     <fieldPermissions>
         <editable>true</editable>
         <field>Car_Experience__c.Car__c</field>
@@ -82,4 +102,12 @@
         <object>Contact</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <tabSettings>
+        <tab>Car_Type__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Car__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>

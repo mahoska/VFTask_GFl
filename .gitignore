@@ -6,6 +6,7 @@
 .sfdx/
 .localdevserver/
 .force-app/main/default/profiles
+.force-app/main/default/appMenus
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
